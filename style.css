@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url('em566jx9ni651.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.navbar{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    backdrop-filter: blur(18px);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+.navbar .topbar{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+}
+.navbar .topbar .navi-1 ul{
+    color: #fff;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.35rem;
+    list-style: none;
+}
+.navbar .topbar .navi-1 li{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-left: 1.8rem;
+    text-shadow: 5px 5px 18px rgb(73, 72, 72);
+
+}
+.navbar .topbar .navi-1 li:first-child{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-shadow: 5px 5px 18px rgb(73, 72, 72);
+    
+}
+.navbar .topbar .navi-2 li{
+    color: #fff;
+    font-size: 1.3rem;
+    margin-left: 1.8rem;
+    text-shadow: 5px 5px 18px rgb(73, 72, 72);
+
+}
+.navbar .topbar .navi-2 ul{
+    color: #fff;
+    font-size: 1.3rem;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.icon-tray{
+    width: 70%;
+    height: 5.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(18px);
+}
+.images{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+    cursor: pointer;
+}
+.igs{
+    position: relative;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.igs img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.sperater{
+    width: 3px;
+    height: 25;
+    margin-left: 2px;
+    background-color: rgba(43, 42, 42,0.3);
+}
+.browser{
+    width: 855px;
+    height: 550px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    border-radius: 9px;
+    background-color: #fff;
+    display: none;
+}
+.bar{
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid #000;
+    padding: 5px 9px;
+    display: flex;
+    align-self: center;
+}
+.cricles{
+    display: flex;
+    cursor: pointer;
+}
+.c1{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: tomato;
+}
+.c2{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: yellow;
+    margin-left: 5px;
+}
+.c3{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    background-color: greenyellow;
+}
+input{
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline: none;
+    width: 105%;
+    position: relative;
+    bottom: 4px;
+    margin-left: 252px;
+}
+input:focus{
+    outline: none;
+}
+.image{
+    background-image: url('boxed-water-is-better-jbcY_yvsDzk-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 525px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+iframe{
+    width: 100%;
+    height: 525px;
+}
+.itune{
+    width: 1155px;
+    height: 550px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    border-radius: 9px;
+    display: flex;
+    visibility: hidden;
+    /* background-color: #fff; */
+}
+.itune .side-bar{
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 100%;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+.itune .main-ui{
+    width: 80%;
+    background-color: #fff;
+    height: 100%;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.tb{
+    display: flex;
+    margin:15px
+}
+.options{
+    margin: 0px 20%;
+    margin-top: 15%;
+}
+.library p{
+    color: #fff;
+
+}
+.library ul{
+    cursor: pointer;
+    margin-left: 17px;
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 21px;
+}
+.library ul li{
+    margin-top: 9px;
+}
+#p2{
+    margin-top: 22px;
+}
+.main-ui{
+    padding: 50px;
+}
+.top-ui{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-ui{
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    background-image: url('freestocks-8a95EVm0ovQ-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.top-ui p{
+    color: rgb(250, 137, 156);
+}
+#mus{
+    margin-right: 15px;
+}
+.posters{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.poster-1{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('1352009.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    width: 32%;
+    height: 165px;
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+}
+.poster-1 p{
+    margin-top: 105px;
+}
+.poster-2{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('Sidhu-Moose-Wala-Wallpaper-HD-47232.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    width: 32%;
+    height: 165px;
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+}
+.poster-2 p{
+    margin-top: 105px;
+}
+.poster-3{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('303a10c5079f750cffde63ea6f0d1de0.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    width: 32%;
+    height: 165px;
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+}
+.poster-3 p{
+    margin-top: 105px;
+}
+.songs{
+    margin-top: 10px;
+}
+.s1{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.terminal{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    width: 925px;
+    height: 550px;
+    border-radius: 12px;
+    border: 1px solid #fff;
+    background-color: rgb(34, 34, 34);
+}
+.terminal-top{
+    width: 100%;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(97, 95, 95);
+}
+.terminal-top p{
+    color: #fff;
+    margin-left: 365px;
+}
+.circles-t{
+    display: flex;
+}
+.terminal-main{
+    color: #fff;
+}
+.spa{
+    animation-name: blink;
+    animation-duration:0.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* display: none; */
+}
+.ans{
+    color: #fff;
+    width: 100%;
+    height: 25px;
+}
+@keyframes blink {
+    0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
